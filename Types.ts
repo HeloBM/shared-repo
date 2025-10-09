@@ -1,12 +1,13 @@
 export type Note = {
-    // repositorio compartilhado
-    // ts-4kst shared
-    // muito trabalho pra pouca alteração
-    // mas ai eu clono o mesmo repositorio nos dois repositorios?
-    id: string,
+    id: number,
     title: string,
     text: string,
     createdAt: Date,
     updatedAt: Date,
     deletedAt: Date | null,
+}
+
+export type PartialNote = {
+    title: string,
+    text: string,
 }

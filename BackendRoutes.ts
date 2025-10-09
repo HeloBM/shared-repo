@@ -1,4 +1,4 @@
-export enum Urls {
+export enum BackendRoutes {
     Notes = "/note",
     NotesId = "/note/:id"
 }
