@@ -5,6 +5,7 @@ export type Note = {
     createdAt: Date,
     updatedAt: Date,
     deletedAt: Date | null,
+    files: string[] | null
 }
 
 export type PartialNote = {
