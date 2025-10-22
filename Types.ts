@@ -5,10 +5,22 @@ export type Note = {
     createdAt: Date,
     updatedAt: Date,
     deletedAt: Date | null,
-    files: string[] | null
 }
 
 export type PartialNote = {
     title: string,
     text: string,
+}
+
+export type Image = {
+    id: number,
+    noteId: number,
+    key: string,
+    createdAt: Date,
+    deletedAt: Date | null
+}
+
+export type PartialImage = {
+    noteId: number,
+    key: string
 }
