@@ -21,6 +21,7 @@ export type Image = {
 }
 
 export type PartialImage = {
+    id: number,
     noteId: number,
     key: string
 }
