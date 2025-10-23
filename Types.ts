@@ -21,7 +21,7 @@ export type Image = {
 }
 
 export type PartialImage = {
-    id: number,
+    id: number | undefined,
     noteId: number,
     key: string,
     files: File[]
