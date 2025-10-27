@@ -1,7 +1,7 @@
 export enum BackendRoutes {
     Notes = "/note",
-    NotesId = Notes + "/:id",
+    NotesId = Notes + "/:noteId",
     Images = "/image",
     ImagesComp = NotesId + Images,
-    ImagesIdComp = ImagesComp + "/:id",
+    ImagesIdComp = ImagesComp + "/:imageId",
 }
